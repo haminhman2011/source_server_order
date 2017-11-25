@@ -1,0 +1,193 @@
+html,
+body {
+    height: 100%;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+.nav > li > form > button:hover {
+    text-decoration: none;
+}
+
+.detail-title {
+    border-top: 1px solid #e5e5e5;
+    padding: 15px 0;
+}
+
+.btn > i {
+    vertical-align: middle;
+}
+
+.search-form {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/*DATATABLE*/
+
+div.DTFC_Blocker {
+    background-color: white !important;
+}
+
+.DTFC_RightBodyLiner {
+    overflow-x: hidden;
+}
+
+.dataTables_wrapper .DTFC_ScrollWrapper {
+    margin-bottom: 5px;
+}
+
+.dataTables_scrollBody {
+    margin-bottom: 5px;
+}
+
+table.dataTable tbody td {
+    vertical-align: middle;
+}
+
+tr.selected {
+    background-color: rgba(176, 190, 217, 0.83) !important;
+}
+
+/******/
+
+/*CUSTOM THEME STYLE*/
+.text-white {
+    color: white;
+}
+
+.text-white:hover {
+    color: #ddd;
+}
+
+.page-sidebar .page-sidebar-menu > li.active.open > a, .page-sidebar .page-sidebar-menu > li.active > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a {
+    font-weight: bold;
+}
+
+.page-sidebar .page-sidebar-menu .sub-menu > li.active > a, .page-sidebar .page-sidebar-menu .sub-menu > li.open > a, .page-sidebar .page-sidebar-menu .sub-menu > li:hover > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li.active > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li.open > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li:hover > a {
+    font-weight: bold;
+}
+
+.page-header.navbar .top-menu .navbar-nav > li > form button[type="submit"] {
+    padding: 16px 3px 13px 7px;
+}
+
+.form-footer {
+    margin: 0;
+    text-align: right;
+    border-top: 1px solid #e7ecf1;
+    padding: 20px 0 20px 20px;
+}
+/*Phần action nhiều row ở trang index*/
+.action-create {
+    float: left;
+}
+
+.action-filter {
+    float: right;
+}
+
+.input-action {
+    float: left;
+    /*margin-right: 10px;*/
+    width: 200px
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .action-create, .action-filter {
+        float: none;
+    }
+    .input-action {
+        width: calc(100% - 100px);
+    }
+}
+/****/
+
+/*PORLETS*/
+.form .form-section, .portlet-form .form-section {
+    padding-bottom: 5px;
+    border-bottom: none;
+    font-weight: bold;
+    margin: 15px 0 0;
+}
+.form-section-title {
+    padding-bottom: 5px;
+    border-bottom: 1px solid grey;
+    font-weight: bold;
+    margin: 15px 0 10px;
+}
+
+/*Hide tinymce brand*/
+.mce-branding-powered-by {
+    display: none;
+}
+
+/*hide highcharts credit*/
+.highcharts-credits {
+    display: none;
+}
+
+/*form checkbox*/
+.form-cb {
+    display: block;
+    margin-bottom: 30px;
+}
+
+/*form radio*/
+.mt-checkbox-inline, .mt-radio-inline {
+    padding: 0 0 10px;
+}
+
+/*select2 */
+.select2-container--bootstrap .select2-results__group {
+    padding: 6px;
+    font-size: 14px;
+}
+
+.select2-container .select2-selection--single {
+    height: 32px !important;
+}
+
+/*table td padding*/
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+
+/*table sorting icon*/
+table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:after {
+    bottom: 6px;
+    right: 6px;
+}
+
+/*custom label*/
+.label {
+    padding: 4px 8px !important;
+}
+
+/*custom form-group + form-control*/
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    width: 100% !important;
+    height: 32px;
+}
